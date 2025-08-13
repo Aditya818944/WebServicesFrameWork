@@ -48,4 +48,17 @@
 <url-pattern>/testingphase/*</url-pattern>
 </servlet-mapping>
 
+
+<servlet>
+<servlet-name>CheckerServlet</servlet-name>
+<servlet-class>com.thinking.machines.webcore.appservlets.CheckerServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>CheckerServlet</servlet-name>
+<url-pattern>/checker</url-pattern>
+</servlet-mapping>
+
+
+
 </web-app>
